@@ -70,7 +70,6 @@ html {
 .article-item:nth-child(2)>img{
     
 }
-
 .article-item:nth-child(2)>img::after {
     content: "Beta";
     position: relative;
