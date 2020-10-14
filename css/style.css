@@ -59,10 +59,28 @@ html {
     box-sizing: border-box;
 
 }
+
+
 .article-item>img {
     width: 100%;
     border-radius: 50%;
     border: 5px solid #fff;
+}
+
+.article-item:nth-child(2)>img{
+    
+}
+
+.article-item:nth-child(2)>img::after {
+    content: "Beta";
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: 10px;
+    right: -20px;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
 }
 
 /*Posts*/
@@ -145,6 +163,8 @@ input, textarea {
     border: none;
     margin-top: 15px;
 }
+
+
 
 footer {
     width: 1000px;
